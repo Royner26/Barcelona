@@ -1,11 +1,69 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>FC BARCELONA</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
+        <link href="css/menu.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
-        <div>TODO write content</div>
+        <header class="header">
+            <nav class="nav">
+                <a href="index.html" class="logo nav-link">FCBARCELONA</a>
+                <ul class="nav-menu">
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="index.html">&LeftTriangleBar;</a></li>
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="historia.html">&RightTriangleBar;</a></li>
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="plantilla.html">plantilla</a></li>
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="estadio.html">estadio</a></li>
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="titulos.html">titulos</a></li>
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="leyendas.html">leyendas</a></li>
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="estrella.html">estrella</a></li>
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="contactenos.html">contactenos</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section id="contenido">
+            <div>
+                <a href="estrella.html">Anterior</a>
+                <a href="index.html">Siguiente</a>
+            </div>
+            <br>
+            <h2 id ="descripcionPagina">Solicitud de Socio</h2>
+            <br>
+            <br>
+            <section id="contenido">
+                <h3>Contáctenos</h3>
+                <br>
+                <form action="#">
+                    <label>Nombre </label><input type="text" id="txtnombre" placeholder="Digite su nombre" size="30">
+                    <br>   
+                    <label>Apellidos </label><input type="text" id="txtapellidos" placeholder="Digite sus apellidos" size="50">  
+                    <br>
+                    <label>Edad </label><input type="number" name="edad" value="25" min="18" max="80">
+                    <br>
+                    <label>Teléfono </label><input type="tel" name="telefono" placeholder="Digite su teléfono">
+                    <br>
+                    <label>Email </label><input type="email" name="email" placeholder="xxxxxx@xxxx">
+                    <br>
+                    <label>Dirección </label><textarea id="direccion" rows="3" cols="30"></textarea>
+                    <br>
+                    <label>Fecha de registro </label><input type="date" name="date" min="2023-06-06" max="2023-12-31">
+                    <br>
+                    VIP<input type="radio" name="campo" value="1">
+                    <br>
+                    Platea<input type="radio" name="campo" value="2">
+                    <br>
+                    Palco<input type="radio" name="campo" value="3">
+                    <br>
+                    <label>Modificar datos </label><input type="reset" name="reset" value="Limpiar">
+                    <br>
+                    <label>Aceptar </label> <input type="checkbox" id="checkbox" checked />Terminos y condiciones
+                    <br>
+                    <input type="submit" value="Enviar">
+                </form>
+            </section>
+        </section>
+        <strong><footer class="footer">MÉS QUE UN CLUB</footer></strong>
     </body>
 </html>

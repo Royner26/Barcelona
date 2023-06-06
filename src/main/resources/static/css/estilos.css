@@ -1,0 +1,26 @@
+#tituloPrincipal{
+    color: #68129d  ; 
+    text-align: center;
+}
+#descripcionPagina{
+    color: purple;
+    text-align: center;
+}
+a {
+    color: #609df1; 
+}
+a:hover{
+    background-color: #4c6cf1;
+   color: white;      
+}
+a:active{
+    background-color: #28beb0 ;
+   color: white; 
+}
+
+body {
+    
+    background-image: url() ;
+}
+
+   
